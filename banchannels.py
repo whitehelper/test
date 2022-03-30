@@ -12,4 +12,4 @@ try:
   await message.respond(f"Бан канала <i>{escape(title)}</i> произведён, чекай банлист группы")
 except Exception as e:
   await message.respond(f"<i>Ошиб</i>очка: {e}")
-await message.delete()
+  await message.delete()
